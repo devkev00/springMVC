@@ -27,6 +27,7 @@ public class RequestParamServlet extends HttpServlet {
         System.out.println("[전체 파라미터 조회] - end");
         System.out.println();
 
+        // getParameter()는 get, post 둘 다 지원한다.
         System.out.println("[단일 파라미터 조회]");
         String username = request.getParameter("username");
         String age = request.getParameter("age");
