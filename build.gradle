@@ -37,6 +37,9 @@ dependencies {
 	implementation 'javax.servlet:jstl'
 	//JSP 추가 끝
 
+	// implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.0'
+	implementation 'javax.servlet:jstl:1.2'
+
 }
 
 tasks.named('test') {
